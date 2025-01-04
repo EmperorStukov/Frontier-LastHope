@@ -1,0 +1,24 @@
+# Rules entries
+guide-entry-lhfrontier-rule-0 = Фундамент
+guide-entry-lhfrontier-rule-1 = 1. Ролевой этикет
+guide-entry-lhfrontier-rule-2 = 1.1. Метагейминг
+guide-entry-lhfrontier-rule-3 = 1.2. НЛР
+guide-entry-lhfrontier-rule-4 = 1.3. Самоубийство
+guide-entry-lhfrontier-rule-5 = 1.4. Чистая речь
+guide-entry-lhfrontier-rule-6 = 1.5. Имена
+guide-entry-lhfrontier-rule-7 = 2. Ролевая логика
+guide-entry-lhfrontier-rule-8 = 2.1. IC-оскорбления и травля
+guide-entry-lhfrontier-rule-9 = 2.2. Ответственность, даруемая вам
+guide-entry-lhfrontier-rule-10 = 3. Разрушение зоны спавна
+guide-entry-lhfrontier-rule-11 = 3.1. Гриф
+guide-entry-lhfrontier-rule-12 = 4. Субординация и работа
+guide-entry-lhfrontier-rule-13 = 4.1. ДСБФ
+guide-entry-lhfrontier-rule-14 = 4.2. Командование
+guide-entry-lhfrontier-rule-15 = 4.3. Солдаты удачи
+guide-entry-lhfrontier-rule-16 = 4.4. Контракты
+guide-entry-lhfrontier-rule-17 = 5. Мародёрство
+guide-entry-lhfrontier-rule-18 = 5.1. Пиратство
+guide-entry-lhfrontier-rule-19 = 6. Сейфзоны
+guide-entry-lhfrontier-rule-20 = 7. Эротический контент
+guide-entry-lhfrontier-rule-21 = 8. Бэдгейм
+guide-entry-lhfrontier-rule-22 = 8.1. Обрушение экономики

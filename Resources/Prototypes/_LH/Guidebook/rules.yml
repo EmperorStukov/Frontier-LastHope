@@ -1,0 +1,167 @@
+﻿- type: guideEntry
+  id: LHFrontierRuleset
+  name: guide-entry-lhfrontier-rules
+  text: "/ServerInfo/_LH/Guidebook/Rules/LastHopeRuleset.xml"
+  priority: -2
+  ruleEntry: true
+  children:
+  - LHFrontierRule1
+  - LHFrontierRule2
+  - LHFrontierRule3
+  - LHFrontierRule4
+  - LHFrontierRule5
+  - LHFrontierRule6
+  - LHFrontierRule7
+  - LHFrontierRule8
+  - LHFrontierRule9
+  - LHFrontierRule10
+  - LHFrontierRule11
+  - LHFrontierRule12
+  - LHFrontierRule13
+  - LHFrontierRule14
+  - LHFrontierRule15
+  - LHFrontierRule16
+  - LHFrontierRule17
+  - LHFrontierRule18
+  - LHFrontierRule19
+  - LHFrontierRule20
+  - LHFrontierRule21
+  - LHFrontierRule22
+
+- type: guideEntry
+  id: LHFrontierRule0
+  name: guide-entry-lhfrontier-rule-0
+  text: "/ServerInfo/_LH/Guidebook/Rules/0_Foundation.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule1
+  name: guide-entry-lhfrontier-rule-1
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_Role_Etiquette.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule2
+  name: guide-entry-lhfrontier-rule-2
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_Metagaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule3
+  name: guide-entry-lhfrontier-rule-3
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_NLR.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule4
+  name: guide-entry-lhfrontier-rule-4
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_Suicide.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule5
+  name: guide-entry-lhfrontier-rule-5
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_Clean_Speach.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule6
+  name: guide-entry-lhfrontier-rule-6
+  text: "/ServerInfo/_LH/Guidebook/Rules/1_Names.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule7
+  name: guide-entry-lhfrontier-rule-7
+  text: "/ServerInfo/_LH/Guidebook/Rules/2_Role_Logic.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule8
+  name: guide-entry-lhfrontier-rule-8
+  text: "/ServerInfo/_LH/Guidebook/Rules/2_ICInfo.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule9
+  name: guide-entry-lhfrontier-rule-9
+  text: "/ServerInfo/_LH/Guidebook/Rules/2_Responsibility.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule10
+  name: guide-entry-lhfrontier-rule-10
+  text: "/ServerInfo/_LH/Guidebook/Rules/3_Spawn_Grief.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule11
+  name: guide-entry-lhfrontier-rule-11
+  text: "/ServerInfo/_LH/Guidebook/Rules/3_Grief.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule12
+  name: guide-entry-lhfrontier-rule-12
+  text: "/ServerInfo/_LH/Guidebook/Rules/4_Subordination.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule13
+  name: guide-entry-lhfrontier-rule-13
+  text: "/ServerInfo/_LH/Guidebook/Rules/4_DSBF.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule14
+  name: guide-entry-lhfrontier-rule-14
+  text: "/ServerInfo/_LH/Guidebook/Rules/4_Command.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule15
+  name: guide-entry-lhfrontier-rule-15
+  text: "/ServerInfo/_LH/Guidebook/Rules/4_Soldats.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule16
+  name: guide-entry-lhfrontier-rule-16
+  text: "/ServerInfo/_LH/Guidebook/Rules/4_Contracts.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule17
+  name: guide-entry-lhfrontier-rule-17
+  text: "/ServerInfo/_LH/Guidebook/Rules/5_Looting.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule18
+  name: guide-entry-lhfrontier-rule-18
+  text: "/ServerInfo/_LH/Guidebook/Rules/5_Piracy.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule19
+  name: guide-entry-lhfrontier-rule-19
+  text: "/ServerInfo/_LH/Guidebook/Rules/6_Safezone.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule20
+  name: guide-entry-lhfrontier-rule-20
+  text: "/ServerInfo/_LH/Guidebook/Rules/7_ERP.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule21
+  name: guide-entry-lhfrontier-rule-21
+  text: "/ServerInfo/_LH/Guidebook/Rules/8_Badgame.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: LHFrontierRule22
+  name: guide-entry-lhfrontier-rule-22
+  text: "/ServerInfo/_LH/Guidebook/Rules/8_Break_Economic.xml"
+  ruleEntry: true
