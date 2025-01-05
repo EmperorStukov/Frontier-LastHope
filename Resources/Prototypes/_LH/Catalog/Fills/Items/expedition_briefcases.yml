@@ -1,0 +1,67 @@
+- type: entity
+  id: BriefcaseBrownExpeditionFirst
+  parent: BriefcaseBrown
+  suffix: Expedition, Spesos
+  components:
+  - type: StorageFill
+    contents:
+    - id: SpaceCash1000
+    - id: SpaceCash1000
+    - id: SpaceCash1000
+    - id: SpaceCash1000
+    - id: SpaceCash1000
+
+- type: entity
+  id: BriefcaseBrownExpeditionSecond
+  parent: BriefcaseBrown
+  suffix: Expedition, Spesos
+  components:
+  - type: StorageFill
+    contents:
+    - id: SpaceCash2500
+    - id: SpaceCash2500
+    - id: SpaceCash2500
+    - id: SpaceCash2500
+
+- type: entity
+  id: BriefcaseBrownExpeditionThird
+  parent: BriefcaseBrown
+  suffix: Expedition, Spesos
+  components:
+  - type: StorageFill
+    contents:
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+
+- type: entity
+  id: BriefcaseBrownExpeditionFourth
+  parent: BriefcaseBrown
+  suffix: Expedition, Spesos
+  components:
+  - type: StorageFill
+    contents:
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+    - id: SpaceCash5000
+
+- type: entity
+  id: BriefcaseBrownExpeditionFifth
+  parent: BriefcaseBrown
+  suffix: Expedition, Spesos
+  components:
+  - type: StorageFill
+    contents:
+    - id: SpaceCash10000
+    - id: SpaceCash10000
+    - id: SpaceCash10000
+    - id: SpaceCash10000
+    - id: SpaceCash10000
+    - id: SpaceCash10000
+    - id: SpaceCash10000

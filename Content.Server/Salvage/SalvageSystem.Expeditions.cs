@@ -20,8 +20,12 @@ using Content.Shared.Coordinates;
 using Content.Shared.Procedural;
 using System.Linq;
 using System.Threading;
+using Content.Server._NF.Bank;
+using Content.Shared.Bank.Components;
+using Content.Shared.PDA;
 using Content.Shared.Salvage;
 using Content.Shared.Salvage.Expeditions;
+using Content.Shared.Shipyard.Components;
 using Robust.Shared.GameStates;
 using Robust.Shared.Random;
 using Robust.Shared.Map;
@@ -37,6 +41,7 @@ public sealed partial class SalvageSystem
 
     private const int MissionLimit = 5;
     [Dependency] private readonly StationSystem _stationSystem = default!;
+    [Dependency] private readonly BankSystem _bankSystem = default!;
 
     private readonly JobQueue _salvageQueue = new();
     private readonly List<(SpawnSalvageMissionJob Job, CancellationTokenSource CancelToken)> _salvageJobs = new();
@@ -343,12 +348,100 @@ public sealed partial class SalvageSystem
         }
 
         if (!(palletList.Count > 0))
+        {
+            GiveSpesosOnBalanceForCaptain(comp);
             return;
+        }
 
         foreach (var reward in comp.Rewards)
         {
             Spawn(reward, (Transform(_random.Pick(palletList)).MapPosition));
         }
+        SpawnBriefCaseWithSpesos(comp, Transform(_random.PickAndTake(palletList)).MapPosition);
+    }
+
+    private void GiveSpesosOnBalanceForCaptain(SalvageExpeditionComponent comp)
+    {
+        if (!TryComp<StationDataComponent>(comp.Station, out var stationData))
+            return;
+
+        var query = EntityQueryEnumerator<ShuttleDeedComponent>();
+        EntityUid? cardEntityUid = null;
+        while (query.MoveNext(out var entityUid, out var shuttleDeed))
+        {
+            if (shuttleDeed.ShuttleUid == stationData.Grids.First())
+            {
+                cardEntityUid = entityUid;
+                break;
+            }
+        }
+
+        EntityUid? owner = null;
+        var query2 = EntityQueryEnumerator<PdaComponent>();
+        while (query2.MoveNext(out var entityUid, out var pdacomponent))
+        {
+            if (pdacomponent.ContainedId == cardEntityUid)
+            {
+                owner = pdacomponent.PdaOwner;
+                break;
+            }
+        }
+
+        if (owner == null || !TryComp<BankAccountComponent>(owner, out var bankAccountComponent))
+            return;
+        _bankSystem.TryBankDeposit(owner.Value, GetSpesosForExpedition(comp));
+    }
+
+    private int GetSpesosForExpedition(SalvageExpeditionComponent comp)
+    {
+        var spesos = 0;
+        switch (comp.Difficulty)
+        {
+            case DifficultyRating.Minimal:
+                spesos = 5000;
+                break;
+            case DifficultyRating.Minor:
+                spesos = 10000;
+                break;
+            case DifficultyRating.Moderate:
+                spesos = 20000;
+                break;
+            case DifficultyRating.Hazardous:
+                spesos = 40000;
+                break;
+            case DifficultyRating.Extreme:
+                spesos = 70000;
+                break;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(comp.Difficulty), comp.Difficulty, null);
+        }
+        return spesos;
+    }
+
+    private void SpawnBriefCaseWithSpesos(SalvageExpeditionComponent comp, MapCoordinates pos)
+    {
+        var briefcase = "BriefCase";
+        switch (comp.Difficulty)
+        {
+            case DifficultyRating.Minimal:
+                briefcase = "BriefcaseBrownExpeditionFirst";
+                break;
+            case DifficultyRating.Minor:
+                briefcase = "BriefcaseBrownExpeditionSecond";
+                break;
+            case DifficultyRating.Moderate:
+                briefcase = "BriefcaseBrownExpeditionThird";
+                break;
+            case DifficultyRating.Hazardous:
+                briefcase = "BriefcaseBrownExpeditionFourth";
+                break;
+            case DifficultyRating.Extreme:
+                briefcase = "BriefcaseBrownExpeditionFifth";
+                break;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(comp.Difficulty), comp.Difficulty, null);
+        }
+        Spawn(briefcase, pos);
     }
 
     // Frontier: handle exped spawn job failures gracefully - reset the console
