@@ -1,36 +1,36 @@
 - type: vendingMachineInventory
   id: NfsdTechInventory
   startingInventory:
-    HyperlinkBookSpaceLaw: 20
-    HyperlinkBookNfsdSop: 20
-    Handcuffs: 10
-    Zipties: 10
-    GrenadeFlashBang: 10
-    NfsdWhistle: 5
-    TearGasGrenade: 4
-    ClusterBangFull: 2
-    GrenadeStinger: 4
-    Flash: 10
-    FlashlightNfsdLite: 10
-    HoloprojectorNfsd: 4
-    Tourniquet: 5
-    ClothingEyesGlassesSunglasses: 5
-    ClothingEyesGlassesNfsd: 5 # Frontier
-    ClothingEyesHudNfsd: 10
-    ClothingEyesHudNfsdPatch: 5
-    ClothingBeltNfsdWebbing: 10
-    ClothingBeltNfsd: 10 # Frontier
-    RiotShield: 3
-    RiotLaserShield: 3
-    RiotBulletShield: 3
-    Stunbaton: 10
-    WeaponDisabler: 10
-    ContrabandAppraisalTool: 5 # Frontier
-    CrowbarRed: 10 # Frontier
-    ForensicScanner: 3 # Frontier
-    BoxForensicPad: 3 # Frontier
-    LogProbeCartridge: 3 # Frontier
-    TrackingImplanter: 5 # Frontier
+    HyperlinkBookSpaceLaw: 4294967295
+    HyperlinkBookNfsdSop: 4294967295
+    Handcuffs: 4294967295
+    Zipties: 4294967295
+    GrenadeFlashBang: 4294967295
+    NfsdWhistle: 4294967295
+    TearGasGrenade: 4294967295
+    ClusterBangFull: 4294967295
+    GrenadeStinger: 4294967295
+    Flash: 4294967295
+    FlashlightNfsdLite: 4294967295
+    HoloprojectorNfsd: 4294967295
+    Tourniquet: 4294967295
+    ClothingEyesGlassesSunglasses: 4294967295
+    ClothingEyesGlassesNfsd: 4294967295 # Frontier
+    ClothingEyesHudNfsd: 4294967295
+    ClothingEyesHudNfsdPatch: 4294967295
+    ClothingBeltNfsdWebbing: 4294967295
+    ClothingBeltNfsd: 4294967295 # Frontier
+    RiotShield: 4294967295
+    RiotLaserShield: 4294967295
+    RiotBulletShield: 4294967295
+    Stunbaton: 4294967295
+    WeaponDisabler: 4294967295
+    ContrabandAppraisalTool: 4294967295 # Frontier
+    CrowbarRed: 4294967295 # Frontier
+    ForensicScanner: 4294967295 # Frontier
+    BoxForensicPad: 4294967295 # Frontier
+    LogProbeCartridge: 4294967295 # Frontier
+    TrackingImplanter: 4294967295 # Frontier
 #    MindShieldImplanter: 5 # Frontier
   # security officers need to follow a diet regimen!
 #  contrabandInventory:

@@ -1,10 +1,10 @@
 - type: vendingMachineInventory
   id: SustenanceInventory
   startingInventory:
-    DrinkMREFlask: 3
-    FoodSnackNutribrick: 5
-    FoodSnackMREBrownie: 5
-    FoodCondimentPacketKetchup: 5
+    DrinkMREFlask: 4294967295
+    FoodSnackNutribrick: 4294967295
+    FoodSnackMREBrownie: 4294967295
+    FoodCondimentPacketKetchup: 4294967295
   emaggedInventory:
     KitchenKnife: 2
     ClothingMaskBreath: 3
