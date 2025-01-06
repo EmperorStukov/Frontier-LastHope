@@ -1,0 +1,59 @@
+- type: vendingMachineInventory
+  id: NanoMedPlusInventoryInfinity
+  startingInventory:
+    HandheldHealthAnalyzer: 4294967295
+    Brutepack: 4294967295`
+    Ointment: 4294967295
+    Bloodpack: 4294967295
+    Gauze: 4294967295 # Frontier
+    EpinephrineChemistryBottle: 4294967295
+    Syringe: 4294967295
+    BoxBottle: 4294967295
+    ClothingEyesHudMedical: 4294967295
+    ClothingEyesEyepatchHudMedical: 4294967295
+    MedicalTrackingImplanterLabeled: 4294967295 # Frontier - infinite
+    SadTromboneImplanterLabeled: 4294967295 # Frontier
+    BikeHornImplanterLabeled: 4294967295 # Frontier
+    LightImplanterLabeled: 4294967295 # Frontier
+    BoxFolderMedicalDoctor: 4294967295 # Frontier - infinite
+    MedTekCartridge: 4294967295 # Frontier
+
+- type: vendingMachineInventory
+  id: ChemVendInventoryInfinity
+  startingInventory:
+    Jug: 4294967295
+    JugAluminium: 4294967295
+    JugCarbon: 4294967295
+    JugChlorine: 4294967295
+    JugCopper: 4294967295
+    JugEthanol: 4294967295
+    JugFluorine: 4294967295
+    JugHydrogen: 4294967295
+    JugIodine: 4294967295
+    JugIron: 4294967295
+    JugLithium: 4294967295
+    JugMercury: 4294967295
+    JugNitrogen: 4294967295
+    JugOxygen: 4294967295
+    JugPhosphorus: 4294967295
+    JugPotassium: 4294967295
+    JugRadium: 4294967295
+    JugSilicon: 4294967295
+    JugSodium: 4294967295
+    JugSugar: 4294967295
+    JugSulfur: 4294967295
+  emaggedInventory:
+    ToxinChemistryBottle: 4
+
+- type: vendingMachineInventory
+  id: NanoMedInventoryInfinity
+  startingInventory:
+    Brutepack: 4294967295
+    Ointment: 4294967295
+    Bloodpack: 4294967295
+    Gauze: 4294967295 # Frontier
+    EpinephrineChemistryBottle: 4294967295
+    Syringe: 4294967295
+    BoxFolderMedicalDoctor: 4294967295 #Frontier
+    MedTekCartridge: 4294967295 # Frontier
+
