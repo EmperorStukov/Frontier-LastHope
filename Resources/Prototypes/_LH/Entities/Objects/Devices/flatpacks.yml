@@ -1,0 +1,12 @@
+# Machines
+# Medical
+- type: entity
+  parent: BaseNFFlatpack
+  id: CryoCapsuleStasisFlatpack
+  name: упакованная капсула криогенного сна
+  description: Упаковка, при помощи которой можно создать капсулу криогенного сна
+  components:
+  - type: Flatpack
+    entity: CryogenicSleepStasisUnit
+  - type: StaticPrice
+    price: 1000
