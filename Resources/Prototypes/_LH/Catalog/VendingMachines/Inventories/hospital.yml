@@ -2,7 +2,7 @@
   id: NanoMedPlusInventoryInfinity
   startingInventory:
     HandheldHealthAnalyzer: 4294967295
-    Brutepack: 4294967295`
+    Brutepack: 4294967295
     Ointment: 4294967295
     Bloodpack: 4294967295
     Gauze: 4294967295 # Frontier
