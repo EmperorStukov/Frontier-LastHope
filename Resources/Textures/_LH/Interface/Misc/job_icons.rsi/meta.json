@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "SeniorSyndicate icon recolored from SeniorOfficer by PinnaCola, SyndicateCaptain icon recolored from Captain by PinnaCola, SyndicateEngineer icon recolored from StationEngineer by PinnaCola, SyndicateGunner made by PinnaCola",
+
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "SeniorSyndicate"
+        },
+        {
+            "name": "SyndicateCaptain"
+        },
+        {
+            "name": "SyndicateEngineer"
+        },
+        {
+            "name": "SyndicateGunner"
+        }
+    ]
+}
