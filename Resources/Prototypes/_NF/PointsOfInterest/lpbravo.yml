@@ -35,8 +35,17 @@
       # FIXME: no records despite shipyard console, could currently be gamed
       stationProto: StandardFrontierOutpost
       components:
-        - type: StationNameSetup
-          mapNameTemplate: 'Прослушивающий пункт Браво'
-        - type: StationJobs
-          availableJobs: {}
-        - type: StationDeadDropHintExempt
+      - type: StationNameSetup
+        mapNameTemplate: 'Прослушивающий пункт Браво'
+      - type: ExtraStationInformation
+        iconPath: /Textures/_LH/Interface/Syndicate/SyndicateLogo.png
+        stationSubtext: 'Тайная база Синдиката'
+        stationDescription: 'Тайная база Синдиката, сокрытая в глубинном космосе от посторонних глаз и даже других ячеек Синдиката. Служит оперативным пунктом для проведения шпионских игр.'
+      - type: StationJobs
+        availableJobs:
+          SyndicateCommander: [ 1, 1 ]
+          SyndicateSpecialist: [ 1, 1 ]
+          SyndicateStormtrooper: [ 1, 1 ]
+          SyndicateFieldCommander: [ 1, 1 ]
+          SyndicateFieldOperative: [ 1, 1 ]
+      - type: StationDeadDropHintExempt

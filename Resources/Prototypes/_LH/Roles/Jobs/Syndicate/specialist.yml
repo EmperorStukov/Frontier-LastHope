@@ -1,0 +1,49 @@
+- type: job
+  id: SyndicateSpecialist
+  name: Специалист ударной группы Синдиката
+  description: Вы являетесь спецом в инженерном деле и медицине. Следите, чтобы штурмовой отряд всегда был здоров и укомплектован!
+  playTimeTracker: JobSyndicateSpecialist
+  whitelisted: true
+  startingGear: SyndicateSpecialistGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconSyndicateSpecialist"
+  supervisors: командору
+  weight: 40
+  displayWeight: 40
+  setPreference: true
+  accessGroups:
+  - GeneralAccess
+  access:
+  - SyndicateAgent
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: MailDisabled
+    - type: SpecialSectorStationRecord
+      recordGeneration: FalseRecord
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+
+- type: startingGear
+  id: SyndicateSpecialistGear
+  equipment:
+#    eyes: ClothingEyesHudSyndicate
+#    ears: ClothingHeadsetAltSyndicate
+#    face: ClothingMaskGasSyndicate
+#    jumpsuit: ClothingUniformJumpsuitParamedicSyndieNF
+#    shoes: ClothingShoesBootsCombat
+#    gloves: ClothingHandsGlovesCombat
+#    outerClothing: ClothingOuterHardsuitSyndieMedic
+#    id: SyndiAgentPDA
+#    belt: ClothingBeltMilitaryWebbing
+    back: ClothingBackpackDuffelSyndicateMedical
+  storage:
+    back:
+    - EncryptionKeySyndie
+    - EncryptionKeyCommon
+    - BaseUplinkRadio40TC

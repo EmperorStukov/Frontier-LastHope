@@ -1,0 +1,14 @@
+- type: playTimeTracker
+  id: JobSyndicateCommander
+
+- type: playTimeTracker
+  id: JobSyndicateSpecialist
+
+- type: playTimeTracker
+  id: JobSyndicateStormtrooper
+
+- type: playTimeTracker
+  id: JobSyndicateFieldCommander
+
+- type: playTimeTracker
+  id: JobSyndicateFieldOperative

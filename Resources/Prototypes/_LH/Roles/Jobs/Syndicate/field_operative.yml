@@ -1,0 +1,44 @@
+- type: job
+  id: SyndicateFieldOperative
+  name: Полевой оперативник Синдиката
+  description: Один из агентов Синдиката, внедряемых в ряды NanoTrasen для саботажа или с какой-либо целью. Расходный материал.
+  playTimeTracker: JobSyndicateFieldOperative
+  whitelisted: true
+  startingGear: SyndicateFieldOperativeGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconSyndicateFieldOperative"
+  supervisors: полевому командиру
+  weight: 40
+  displayWeight: 40
+  setPreference: true
+  accessGroups:
+  - GeneralAccess
+  access:
+  - SyndicateAgent
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: MailDisabled
+    - type: SpecialSectorStationRecord
+      recordGeneration: FalseRecord
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+
+- type: startingGear
+  id: SyndicateFieldOperativeGear
+  equipment:
+#    ears: ClothingHeadsetAltSyndicate
+#    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+#    shoes: ClothingShoesBootsCombat
+#    id: SyndiPDA
+    back: ClothingBackpackSyndicate
+  storage:
+    back:
+    - EncryptionKeySyndie
+    - EncryptionKeyCommon
+    - BaseUplinkRadio25TC

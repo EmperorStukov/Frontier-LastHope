@@ -1,0 +1,52 @@
+- type: job
+  id: SyndicateCommander
+  name: Командор Синдиката
+  description: Вы - командующий специальным дивирсионным подразделением Синдиката. Портите жизнь NanoTrasen всеми возможными способами, но скрытно!
+  playTimeTracker: JobSyndicateCommander
+  whitelisted: true
+  startingGear: SyndicateCommanderGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconSyndicateCommander"
+  supervisors: job-supervisors-nobody
+  weight: 40
+  displayWeight: 40
+  setPreference: true
+  accessGroups:
+  - GeneralAccess
+  access:
+  - SyndicateAgent
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: MailDisabled
+        - type: SpecialSectorStationRecord
+          recordGeneration: FalseRecord
+        - type: NpcFactionMember
+          factions:
+            - Syndicate
+    - !type:AddImplantSpecial
+      implants: [ FreelanceTrackingImplant ]
+
+- type: startingGear
+  id: SyndicateCommanderGear
+  equipment:
+#    head: ClothingHeadHatBeret
+#    ears: ClothingHeadsetAltSyndicate
+#    face: ClothingMaskGasSyndicate
+#    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+#    shoes: ClothingShoesBootsCombat
+#    gloves: ClothingHandsGlovesCombat
+#    outerClothing: ClothingOuterCoatSyndieCapArmored
+#    id: SyndiPDA
+#    belt: ClothingBeltMilitaryWebbing
+    back: ClothingBackpackMessengerSyndicate
+  storage:
+    back:
+      - EncryptionKeySyndie
+      - EncryptionKeyCommon
+      - RubberStampSyndicate
+      - BoxFolderRed
+      - CyberPen
+      - BaseUplinkRadio60TC

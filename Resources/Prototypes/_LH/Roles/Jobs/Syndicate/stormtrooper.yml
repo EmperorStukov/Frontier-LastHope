@@ -1,0 +1,49 @@
+- type: job
+  id: SyndicateStormtrooper
+  name: Штурмовик ударной группы Синдиката
+  description: Ударная единица Синдиката, что несёт смерть и убийства корпоративным крысам. Рок-н-Ролл!
+  playTimeTracker: JobSyndicateStormtrooper
+  whitelisted: true
+  startingGear: SyndicateStormtrooperGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconSyndicateStormtrooper"
+  supervisors: командору
+  weight: 40
+  displayWeight: 40
+  setPreference: true
+  accessGroups:
+  - GeneralAccess
+  access:
+  - SyndicateAgent
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: MailDisabled
+    - type: SpecialSectorStationRecord
+      recordGeneration: FalseRecord
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+  - !type:AddImplantSpecial
+    implants: [ FreelanceTrackingImplant ]
+
+- type: startingGear
+  id: SyndicateStormtrooperGear
+  equipment:
+#    eyes: ClothingEyesHudSyndicate
+#    ears: ClothingHeadsetAltSyndicate
+#    face: ClothingMaskGasSyndicate
+#    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+#    shoes: ClothingShoesBootsCombat
+#    gloves: ClothingHandsGlovesCombat
+#    outerClothing: ClothingOuterHardsuitSyndie
+#    id: SyndiPDA
+#    belt: ClothingBeltMilitaryWebbing
+    back: ClothingBackpackDuffelSyndicate
+  storage:
+    back:
+      - EncryptionKeySyndie
+      - EncryptionKeyCommon
+      - BaseUplinkRadio40TC

@@ -1,0 +1,67 @@
+- type: roleLoadout
+  id: JobSyndicateCommander
+  groups:
+  - SyndicateCaptainHead
+  - SyndicateEars
+  - SyndicateFace
+  - SyndicateGloves
+  - SyndicateJumpsuit
+  - SyndicateShoes
+  - SyndicateCommanderOuterClothing
+  - SyndicatePDA
+  - SyndicateBelt
+  - SyndicateEncryptionKey
+  # Сумка, в которой мессенджер Синдиката (печать Синдиката, красная папка, ручка Cybersun, аплинк одиного уровня оперативника на 60 ТК)
+
+- type: roleLoadout
+  id: JobSyndicateSpecialist
+  groups:
+  - SyndicateVisor
+  - SyndicateEars
+  - SyndicateFace
+  - SyndicateGloves
+  - SyndicateParamedicJumpsuit
+  - SyndicateShoes
+  - SyndicateParamedicOuterClothing
+  - SyndicateParamedicPDA
+  - SyndicateParamedicBelt
+  - SyndicateEncryptionKey
+  # Сумка Медицинский вещмешок Синдиката (сод.: аплинк ядерного оперативника на 40ТК)
+
+- type: roleLoadout
+  id: JobSyndicateStormtrooper
+  groups:
+  - SyndicateVisor
+  - SyndicateEars
+  - SyndicateFace
+  - SyndicateGloves
+  - SyndicateJumpsuit
+  - SyndicateShoes
+  - SyndicateOuterClothing
+  - SyndicatePDA
+  - SyndicateBelt
+  - SyndicateEncryptionKey
+  # Сумка: Вещмешок Синдиката (сод.: аплинк ядерного оперативника на 40ТК)
+
+- type: roleLoadout
+  id: JobSyndicateFieldCommander
+  groups:
+  - SyndicateCapHead
+  - SyndicateEars
+  - SyndicateGloves
+  - SyndicateJumpsuit
+  - SyndicateShoes
+  - SyndicateArmorOuterClothing
+  - SyndicatePDA
+  - SyndicateEncryptionKey
+  # Сумка: Рюкзак Синдиката (сод.: аплинк синдиката на 25ТК)
+
+- type: roleLoadout
+  id: JobSyndicateFieldOperative
+  groups:
+  - SyndicateEars
+  - SyndicateRecruitJumpsuit
+  - SyndicateShoes
+  - SyndicatePDA
+  - SyndicateEncryptionKey
+  # Сумка: Рюкзак Синдиката (сод.: аплинк синдиката на 25ТК)

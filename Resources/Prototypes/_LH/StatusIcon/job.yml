@@ -1,0 +1,39 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateCommander
+  icon:
+    sprite: /Textures/_LH/Interface/Misc/job_icons.rsi
+    state: SyndicateCaptain
+  jobName: Командор Синдиката
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateSpecialist
+  icon:
+    sprite: /Textures/_LH/Interface/Misc/job_icons.rsi
+    state: SyndicateEngineer
+  jobName: Специалист ударной группы Синдиката
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateStormtrooper
+  icon:
+    sprite: /Textures/_LH/Interface/Misc/job_icons.rsi
+    state: SyndicateGunner
+  jobName: Штурмовик ударной группы Синдиката
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateFieldCommander
+  icon:
+    sprite: /Textures/_LH/Interface/Misc/job_icons.rsi
+    state: SeniorSyndicate
+  jobName: Полевой командир Синдиката
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSyndicateFieldOperative
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Syndicate
+  jobName: Полевой оперативник Синдиката

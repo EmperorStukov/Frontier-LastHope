@@ -1,0 +1,4 @@
+- type: loadout
+  id: SyndicateRecruitJumpsuitSyndicateRecruit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitRecruitSyndieNF

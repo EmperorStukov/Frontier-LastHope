@@ -1,0 +1,4 @@
+- type: loadout
+  id: SyndicateFaceSyndicate
+  equipment:
+    mask: ClothingMaskGasSyndicate

@@ -1,0 +1,173 @@
+- type: loadoutGroup
+  id: SyndicateCaptainHead
+  name: головные уборы
+  minLimit: 0
+  loadouts:
+  - SyndicateCaptainHeadSyndicateCaptain
+  fallbacks:
+  - SyndicateCaptainHeadSyndicateCaptain
+
+- type: loadoutGroup
+  id: SyndicateEars
+  name: уши
+  minLimit: 0
+  loadouts:
+    - SyndicateEarsSyndicate
+  fallbacks:
+    - SyndicateEarsSyndicate
+
+- type: loadoutGroup
+  id: SyndicateFace
+  name: маски
+  minLimit: 0
+  loadouts:
+    - SyndicateFaceSyndicate
+  fallbacks:
+    - SyndicateFaceSyndicate
+
+- type: loadoutGroup
+  id: SyndicateGloves
+  name: перчатки
+  minLimit: 0
+  loadouts:
+    - SyndicateGlovesSyndicate
+  fallbacks:
+    - SyndicateGlovesSyndicate
+
+- type: loadoutGroup
+  id: SyndicateJumpsuit
+  name: униформа
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+    - SyndicateJumpsuitSyndicateMan
+    - SyndicateJumpsuitSyndicateWoman
+  fallbacks:
+    - SyndicateJumpsuitSyndicateMan
+
+- type: loadoutGroup
+  id: SyndicateShoes
+  name: обувь
+  minLimit: 0
+  loadouts:
+  - SyndicateShoesSyndicate
+  fallbacks:
+  - SyndicateShoesSyndicate
+
+- type: loadoutGroup
+  id: SyndicateCommanderOuterClothing
+  name: верхняя одежда
+  minLimit: 0
+  loadouts:
+  - SyndicateCommanderOuterClothingSyndicateCommander
+  fallbacks:
+  - SyndicateCommanderOuterClothingSyndicateCommander
+
+- type: loadoutGroup
+  id: SyndicatePDA
+  name: ID
+  hidden: true
+  loadouts:
+  - SyndicatePDASyndicate
+  fallbacks:
+  - SyndicatePDASyndicate
+
+- type: loadoutGroup
+  id: SyndicateBelt
+  name: пояса
+  minLimit: 0
+  loadouts:
+    - SyndicateBeltSyndicate
+  fallbacks:
+    - SyndicateBeltSyndicate
+
+- type: loadoutGroup
+  id: SyndicateEncryptionKey
+  name: ключи шифрования
+  minLimit: 0
+  loadouts:
+  - SyndicateEncryptionKeySyndicate
+  fallbacks:
+  - SyndicateEncryptionKeySyndicate
+
+- type: loadoutGroup
+  id: SyndicateVisor
+  name: визоры
+  minLimit: 0
+  loadouts:
+  - SyndicateVisorSyndicate
+  fallbacks:
+  - SyndicateVisorSyndicate
+
+- type: loadoutGroup
+  id: SyndicateParamedicJumpsuit
+  name: униформа
+  minLimit: 0
+  loadouts:
+  - SyndicateParamedicJumpsuitSyndicateParamedic
+  fallbacks:
+  - SyndicateParamedicJumpsuitSyndicateParamedic
+
+- type: loadoutGroup
+  id: SyndicateParamedicOuterClothing
+  name: униформа
+  minLimit: 0
+  loadouts:
+  - SyndicateParamedicOuterClothingSyndicateParamedic
+  fallbacks:
+  - SyndicateParamedicOuterClothingSyndicateParamedic
+
+- type: loadoutGroup
+  id: SyndicateParamedicPDA
+  name: ID
+  hidden: true
+  loadouts:
+  - SyndicateParamedicPDASyndicateParamedic
+  fallbacks:
+  - SyndicateParamedicPDASyndicateParamedic
+
+- type: loadoutGroup
+  id: SyndicateParamedicBelt
+  name: пояса
+  minLimit: 0
+  loadouts:
+  - SyndicateParamedicBeltSyndicateParamedic
+  fallbacks:
+  - SyndicateParamedicBeltSyndicateParamedic
+
+- type: loadoutGroup
+  id: SyndicateOuterClothing
+  name: верхняя одежда
+  minLimit: 0
+  loadouts:
+  - SyndicateOuterClothingSyndicate
+  fallbacks:
+  - SyndicateOuterClothingSyndicate
+
+- type: loadoutGroup
+  id: SyndicateCapHead
+  name: головные уборы
+  minLimit: 0
+  loadouts:
+  - SyndicateCapHeadSyndicateCap
+  fallbacks:
+  - SyndicateCapHeadSyndicateCap
+
+- type: loadoutGroup
+  id: SyndicateArmorOuterClothing
+  name: верхняя одежда
+  minLimit: 0
+  loadouts:
+  - SyndicateArmorOuterClothingSyndicateArmor
+  fallbacks:
+  - SyndicateArmorOuterClothingSyndicateArmor
+
+- type: loadoutGroup
+  id: SyndicateRecruitJumpsuit
+  name: униформа
+  minLimit: 0
+  loadouts:
+  - SyndicateRecruitJumpsuitSyndicateRecruit
+  fallbacks:
+  - SyndicateRecruitJumpsuitSyndicateRecruit
+

@@ -1,0 +1,12 @@
+- type: department
+  id: AntagSyndicate
+  name: Диверсионный батальон "Девятихвостая лиса"
+  description: Диверсионный батальон "Девятихвостая лиса"
+  color: "#DE3A3A"
+  weight: -1 # accounted for in jobs
+  roles:
+  - SyndicateCommander
+  - SyndicateSpecialist
+  - SyndicateStormtrooper
+  - SyndicateFieldCommander
+  - SyndicateFieldOperative

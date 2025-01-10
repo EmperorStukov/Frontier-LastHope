@@ -1,0 +1,4 @@
+- type: loadout
+  id: SyndicateBeltSyndicate
+  equipment:
+    belt: ClothingBeltMilitaryWebbing

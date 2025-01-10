@@ -1,0 +1,69 @@
+- type: entity
+  id: SpawnPointSyndicateCommander
+  parent: SpawnPointJobBase
+  name: Спавнер Командор Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateCommander
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Structures/Wallmounts/signs.rsi
+      state: radiation
+
+- type: entity
+  id: SpawnPointSyndicateSpecialist
+  parent: SpawnPointJobBase
+  name: Спавнер Специалист ударной группы Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateSpecialist
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Structures/Wallmounts/signs.rsi
+      state: radiation
+
+- type: entity
+  id: SpawnPointSyndicateStormtrooper
+  parent: SpawnPointJobBase
+  name: Спавнер Штурмовик ударной группы Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateStormtrooper
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Structures/Wallmounts/signs.rsi
+      state: radiation
+
+- type: entity
+  id: SpawnPointSyndicateFieldCommander
+  parent: SpawnPointJobBase
+  name: Спавнер Полевой командир Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateFieldCommander
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Structures/Wallmounts/signs.rsi
+      state: radiation
+
+- type: entity
+  id: SpawnPointSyndicateFieldOperative
+  parent: SpawnPointJobBase
+  name: Спавнер Полевой оперативник Синдиката
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateFieldOperative
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Structures/Wallmounts/signs.rsi
+      state: radiation

@@ -1,0 +1,9 @@
+- type: loadout
+  id: SyndicateJumpsuitSyndicateMan
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+
+- type: loadout
+  id: SyndicateJumpsuitSyndicateWoman
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtSyndieFormalDress

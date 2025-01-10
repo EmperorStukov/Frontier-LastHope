@@ -1,6 +1,7 @@
 - type: vendingMachineInventory
   id: SyndieDrobeInventory
   startingInventory:
+    ClothingMaskGasSyndicate: 5
     ClothingBackpackMessengerSyndicate: 3 # Frontier
     ClothingHeadHatOutlawHat: 3
     ClothingHeadHatSyndie: 5
@@ -16,10 +17,10 @@
     ClothingNeckScarfStripedSyndieGreen: 2
     ClothingNeckScarfStripedSyndieRed: 2
     ClothingShoesBootsWinterSyndicate: 2
-    
+
   emaggedInventory:
     ClothingOuterCoatSyndieCapArmored: 1
     ClothingOuterWinterSyndieCapArmored: 1
     ClothingHeadHatTacticalMaidHeadband: 5
     ClothingUniformJumpskirtTacticalMaid: 5
-    ClothingHandsTacticalMaidGloves: 5 
+    ClothingHandsTacticalMaidGloves: 5

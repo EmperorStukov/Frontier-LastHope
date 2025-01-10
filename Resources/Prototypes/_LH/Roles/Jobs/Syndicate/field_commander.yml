@@ -1,0 +1,48 @@
+- type: job
+  id: SyndicateFieldCommander
+  name: Полевой командир Синдиката
+  description: Вы - один из полевых офицеров, координирующих действия оперативников. Держите связь с ними и всегда будьте дать указания. Слушайте всё, о чём говорит командор.
+  playTimeTracker: JobSyndicateFieldCommander
+  whitelisted: true
+  startingGear: SyndicateFieldCommanderGear
+  alwaysUseSpawner: true
+  hideConsoleVisibility: true
+  canBeAntag: true
+  icon: "JobIconSyndicateFieldCommander"
+  supervisors: командору
+  weight: 40
+  displayWeight: 40
+  setPreference: true
+  accessGroups:
+  - GeneralAccess
+  access:
+  - SyndicateAgent
+  special:
+    - !type:AddComponentSpecial
+      components:
+        - type: MailDisabled
+        - type: SpecialSectorStationRecord
+          recordGeneration: FalseRecord
+        - type: NpcFactionMember
+          factions:
+            - Syndicate
+    - !type:AddImplantSpecial
+      implants: [ FreelanceTrackingImplant ]
+
+- type: startingGear
+  id: SyndicateFieldCommanderGear
+  equipment:
+#    head: ClothingHeadHatSyndie
+#    ears: ClothingHeadsetAltSyndicate
+#    jumpsuit: ClothingUniformJumpsuitSyndieFormalNF
+#    shoes: ClothingShoesBootsCombat
+#    gloves: ClothingHandsGlovesCombat
+#    outerClothing: ClothingOuterArmorBasic
+#    id: SyndiPDA
+#    belt: ClothingBeltMilitaryWebbing
+    back: ClothingBackpackSyndicate
+  storage:
+    back:
+    - EncryptionKeySyndie
+    - EncryptionKeyCommon
+    - BaseUplinkRadio25TC
