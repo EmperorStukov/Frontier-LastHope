@@ -596,16 +596,16 @@
   - ContractorClothingNeckCloakMoth
   - ContractorClothingNeckScarfChaplainStole
   - ContractorClothingNeckStoleChaplain
-  - ContractorClothingNeckCloakTrans
-  - ContractorClothingNeckCloakAro
-  - ContractorClothingNeckCloakAce
-  - ContractorClothingNeckCloakBi
-  - ContractorClothingNeckCloakIntersex
-  - ContractorClothingNeckCloakEnby
-  - ContractorClothingNeckCloakPan
-  - ContractorClothingNeckCloakGay
-  - ContractorClothingNeckCloakLesbian
-  - ContractorBedsheetRainbow
+#  - ContractorClothingNeckCloakTrans
+#  - ContractorClothingNeckCloakAro
+#  - ContractorClothingNeckCloakAce
+#  - ContractorClothingNeckCloakBi
+#  - ContractorClothingNeckCloakIntersex
+#  - ContractorClothingNeckCloakEnby
+#  - ContractorClothingNeckCloakPan
+#  - ContractorClothingNeckCloakGay
+#  - ContractorClothingNeckCloakLesbian
+#  - ContractorBedsheetRainbow
   - ContractorClothingNeckIFFNeutral
   - ContractorClothingNeckIFFGreen
   - ContractorClothingNeckIFFRed
@@ -792,16 +792,16 @@
   - ContractorSoapNT
   # Frontier - try to mirror the upstream trinkets here, but only if they arent job role restricted in some weird way
   - PlushieLizard
-  - ClothingNeckLGBTPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckBisexualPin
-  - ClothingNeckGayPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckTransPin
+#  - ClothingNeckLGBTPin
+#  - ClothingNeckAromanticPin
+#  - ClothingNeckAsexualPin
+#  - ClothingNeckBisexualPin
+#  - ClothingNeckGayPin
+#  - ClothingNeckIntersexPin
+#  - ClothingNeckLesbianPin
+#  - ClothingNeckNonBinaryPin
+#  - ClothingNeckPansexualPin
+#  - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
 
