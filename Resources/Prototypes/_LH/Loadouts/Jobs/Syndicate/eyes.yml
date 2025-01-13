@@ -1,4 +1,4 @@
 - type: loadout
   id: SyndicateVisorSyndicate
   equipment:
-    eyes: ClothingEyesHudSyndicate
+    eyes: ClothingEyesHudSyndicateAgent
