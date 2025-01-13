@@ -38,7 +38,7 @@
       - id: ClothingEyesGlassesSunglasses
       - id: SpaceCash30000
         amount: 1
-      - id: EncryptionKeySyndie
+#      - id: EncryptionKeySyndie
       - id: RubberStampTrader
       - id: PhoneInstrumentSyndicate
       - id: ClothingUniformJumpsuitTacticool

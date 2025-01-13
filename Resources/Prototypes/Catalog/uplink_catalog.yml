@@ -768,6 +768,11 @@
     Telecrystal: 2
   categories:
   - UplinkDeception
+  conditions:
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+          - SurplusBundle
 
 - type: listing
   id: UplinkBinaryTranslatorKey
