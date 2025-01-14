@@ -2,6 +2,7 @@
   id: PublicAffairsLiaison
   name: job-name-pal
   description: job-description-public-affairs-liaison
+  AgeRequirement: 30
   playTimeTracker: JobPublicAffairsLiaison
   requirements:
     - !type:OverallPlaytimeRequirement

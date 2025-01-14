@@ -2,6 +2,7 @@
   id: Mercenary
   name: job-name-mercenary
   description: job-description-mercenary
+  AgeRequirement: 22
   playTimeTracker: JobMercenary
   requirements:
     - !type:OverallPlaytimeRequirement

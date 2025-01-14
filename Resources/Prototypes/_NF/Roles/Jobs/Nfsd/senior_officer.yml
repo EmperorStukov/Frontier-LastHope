@@ -2,6 +2,7 @@
   id: SeniorOfficer
   name: job-name-senior-officer
   description: job-description-senior-officer
+  AgeRequirement: 26
   playTimeTracker: JobSeniorOfficer
   requirements:
     - !type:OverallPlaytimeRequirement

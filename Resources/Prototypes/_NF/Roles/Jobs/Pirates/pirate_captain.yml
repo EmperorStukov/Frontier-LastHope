@@ -2,6 +2,7 @@
   id: PirateCaptain
   name: job-name-pirate-captain
   description: job-description-pirate-captain
+  AgeRequirement: 30
   playTimeTracker: JobPirateCaptain
   requirements:
     - !type:OverallPlaytimeRequirement

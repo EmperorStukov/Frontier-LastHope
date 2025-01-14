@@ -2,6 +2,7 @@
   id: NFDetective
   name: job-name-nf-detective
   description: job-description-nf-detective
+  AgeRequirement: 25
   playTimeTracker: JobDetective
   requirements:
     - !type:OverallPlaytimeRequirement

@@ -2,6 +2,7 @@
   id: SecurityGuard
   name: job-name-security-guard
   description: job-description-security-guard
+  AgeRequirement: 20
   playTimeTracker: JobSecurityGuard
   requirements:
     - !type:OverallPlaytimeRequirement

@@ -2,6 +2,7 @@
   id: Sheriff
   name: job-name-sheriff
   description: job-description-sheriff
+  AgeRequirement: 32
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement

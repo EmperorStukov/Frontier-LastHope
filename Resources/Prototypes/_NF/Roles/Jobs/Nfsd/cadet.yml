@@ -2,6 +2,7 @@
   id: Cadet
   name: job-name-cadet-nf
   description: job-description-cadet-nf
+  AgeRequirement: 20
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement

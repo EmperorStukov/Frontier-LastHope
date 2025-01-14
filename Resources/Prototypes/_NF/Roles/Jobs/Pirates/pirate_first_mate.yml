@@ -2,6 +2,7 @@
   id: PirateFirstMate
   name: job-name-pirate-first-mate
   description: job-description-pirate-first-mate
+  AgeRequirement: 25
   playTimeTracker: JobPirateFirstMate
   requirements:
     - !type:OverallPlaytimeRequirement

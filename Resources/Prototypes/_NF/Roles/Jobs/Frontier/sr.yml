@@ -2,6 +2,7 @@
   id: StationRepresentative
   name: job-name-sr
   description: job-description-sr
+  AgeRequirement: 35
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement

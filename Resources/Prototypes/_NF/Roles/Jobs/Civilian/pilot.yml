@@ -2,6 +2,7 @@
   id: Pilot
   name: job-name-pilot
   description: job-description-pilot
+  AgeRequirement: 20
   playTimeTracker: JobPilot
   requirements:
     - !type:OverallPlaytimeRequirement

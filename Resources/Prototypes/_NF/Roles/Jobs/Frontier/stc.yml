@@ -2,6 +2,7 @@
   id: StationTrafficController
   name: job-name-stc
   description: job-description-stc
+  AgeRequirement: 28
   playTimeTracker: JobStc
   startingGear: StcGear
   alwaysUseSpawner: true

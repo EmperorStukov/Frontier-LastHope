@@ -2,6 +2,7 @@
   id: Brigmedic
   name: job-name-brigmedic
   description: job-description-brigmedic-nf
+  AgeRequirement: 25
   playTimeTracker: JobBrigmedic
   requirements:
     - !type:OverallPlaytimeRequirement

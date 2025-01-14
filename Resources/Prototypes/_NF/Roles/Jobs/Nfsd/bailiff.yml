@@ -2,6 +2,7 @@
   id: Bailiff
   name: job-name-bailiff
   description: job-description-bailiff
+  AgeRequirement: 28
   playTimeTracker: JobWarden
   requirements:
     - !type:OverallPlaytimeRequirement

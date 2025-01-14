@@ -1,5 +1,5 @@
 department-Cargo = Отдел снабжения
-department-Civilian = Сервисный отдел
+department-Civilian = Вольники
 department-Command = Командование
 department-Engineering = Инженерный отдел
 department-Medical = Медицинский отдел
