@@ -2,7 +2,6 @@
   id: NFDetective
   name: job-name-nf-detective
   description: job-description-nf-detective
-  AgeRequirement: 25
   playTimeTracker: JobDetective
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,10 +9,14 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 25
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
       time: 360000 # 100 hours
+    - !type:AgeRequirement
+      requiredAge: 25
   startingGear: NFDetectiveGear
   icon: JobIconNFDetective
   supervisors: job-supervisors-bailiff

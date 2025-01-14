@@ -2,7 +2,6 @@
   id: Deputy
   name: job-name-deputy
   description: job-description-deputy
-  AgeRequirement: 22
   playTimeTracker: JobSecurityOfficer
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,10 +9,14 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 22
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
       time: 360000 # 100 hours
+    - !type:AgeRequirement
+      requiredAge: 22
   startingGear: DeputyGear
   icon: JobIconDeputy
   supervisors: job-supervisors-sergeant

@@ -2,7 +2,6 @@
   id: Bailiff
   name: job-name-bailiff
   description: job-description-bailiff
-  AgeRequirement: 28
   playTimeTracker: JobWarden
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -13,6 +12,8 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 28
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -23,6 +24,8 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 28
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff

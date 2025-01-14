@@ -3,8 +3,10 @@
   name: Командор Синдиката
   description: Вы - командующий специальным дивирсионным подразделением Синдиката. Портите жизнь NanoTrasen всеми возможными способами, но скрытно!
   playTimeTracker: JobSyndicateCommander
+  requirements:
+    - !type:AgeRequirement
+      requiredAge: 35
   whitelisted: true
-  AgeRequirement: 35
   startingGear: SyndicateCommanderGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

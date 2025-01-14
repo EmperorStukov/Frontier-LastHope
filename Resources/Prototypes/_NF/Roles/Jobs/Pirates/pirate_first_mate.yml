@@ -2,7 +2,6 @@
   id: PirateFirstMate
   name: job-name-pirate-first-mate
   description: job-description-pirate-first-mate
-  AgeRequirement: 25
   playTimeTracker: JobPirateFirstMate
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,6 +9,8 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 10800 # 3 hours
+    - !type:AgeRequirement
+      requiredAge: 25
   whitelisted: true
   startingGear: PirateFirstMateNFGear
   alwaysUseSpawner: true

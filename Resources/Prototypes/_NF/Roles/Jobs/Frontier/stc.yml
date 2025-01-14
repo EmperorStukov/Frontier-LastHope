@@ -2,7 +2,6 @@
   id: StationTrafficController
   name: job-name-stc
   description: job-description-stc
-  AgeRequirement: 28
   playTimeTracker: JobStc
   startingGear: StcGear
   alwaysUseSpawner: true
@@ -12,6 +11,8 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 10800 # 3 hrs as security guard
+    - !type:AgeRequirement
+      requiredAge: 28
   canBeAntag: false
   icon: "JobIconStc" 
   supervisors: job-supervisors-sr

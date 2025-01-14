@@ -2,7 +2,6 @@
   id: PublicAffairsLiaison
   name: job-name-pal
   description: job-description-public-affairs-liaison
-  AgeRequirement: 30
   playTimeTracker: JobPublicAffairsLiaison
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,10 +9,14 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 30
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
       time: 360000 # 100 hours
+    - !type:AgeRequirement
+      requiredAge: 30
   startingGear: PublicAffairGear
   icon: "JobIconPublicAffairsLiaison"
   supervisors: job-supervisors-cadet

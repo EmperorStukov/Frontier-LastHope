@@ -2,7 +2,6 @@
   id: Sheriff
   name: job-name-sheriff
   description: job-description-sheriff
-  AgeRequirement: 32
   playTimeTracker: JobHeadOfSecurity
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -16,6 +15,8 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 43200 # 12 hours
+    - !type:AgeRequirement
+      requiredAge: 32
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -26,6 +27,8 @@
     - !type:RoleTimeRequirement
       role: JobWarden
       time: 21600 # 6 hours
+    - !type:AgeRequirement
+      requiredAge: 32
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true

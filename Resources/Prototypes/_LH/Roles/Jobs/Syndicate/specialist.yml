@@ -3,8 +3,10 @@
   name: Специалист ударной группы Синдиката
   description: Вы являетесь спецом в инженерном деле и медицине. Следите, чтобы штурмовой отряд всегда был здоров и укомплектован!
   playTimeTracker: JobSyndicateSpecialist
+  requirements:
+    - !type:AgeRequirement
+      requiredAge: 27
   whitelisted: true
-  AgeRequirement: 28
   startingGear: SyndicateSpecialistGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

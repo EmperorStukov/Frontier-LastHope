@@ -2,7 +2,6 @@
   id: PirateCaptain
   name: job-name-pirate-captain
   description: job-description-pirate-captain
-  AgeRequirement: 30
   playTimeTracker: JobPirateCaptain
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,6 +9,8 @@
     - !type:RoleTimeRequirement
       role: JobSeniorOfficer
       time: 10800 # 3 hours
+    - !type:AgeRequirement
+      requiredAge: 30
   whitelisted: true
   startingGear: PirateCaptainNFGear
   alwaysUseSpawner: true

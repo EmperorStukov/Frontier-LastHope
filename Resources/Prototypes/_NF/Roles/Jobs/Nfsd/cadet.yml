@@ -2,7 +2,6 @@
   id: Cadet
   name: job-name-cadet-nf
   description: job-description-cadet-nf
-  AgeRequirement: 20
   playTimeTracker: JobSecurityCadet
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -11,6 +10,8 @@
       department: Security
       time: 64800 # 18 hours
       inverted: true # Leave slots open for newer, less confident players.
+    - !type:AgeRequirement
+      requiredAge: 20
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet

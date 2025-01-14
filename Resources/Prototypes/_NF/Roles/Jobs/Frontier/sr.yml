@@ -2,7 +2,6 @@
   id: StationRepresentative
   name: job-name-sr
   description: job-description-sr
-  AgeRequirement: 35
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -10,6 +9,8 @@
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 10800 # 3 hrs as security guard
+    - !type:AgeRequirement
+      requiredAge: 35
   whitelisted: true
   startingGear: SrGear
   alwaysUseSpawner: true
