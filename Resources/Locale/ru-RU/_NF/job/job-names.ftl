@@ -1,6 +1,6 @@
 # Frontier
 job-name-bailiff = Бейлиф
-job-name-brigmedic = Коронер
+job-name-brigmedic = Дежурный врач
 job-name-cadet-nf = Кадет
 job-name-contractor = Авантюрист
 job-name-deputy = Констебль
@@ -9,8 +9,8 @@ job-name-ertmailcarrier = Почтальон ОБР
 job-name-mercenary = Наёмник
 job-name-pilot = Пилот
 job-name-pirate = Пират
-job-name-pirate-captain = Пиратский Лорд
-job-name-pirate-first-mate = Пиратский Помощник
+job-name-pirate-captain = Пиратский лорд
+job-name-pirate-first-mate = Первый помощник
 job-name-security-guard = Охранник Аванпоста
 job-name-sheriff = Шериф
 job-name-stc = Диспетчер Аванпоста
@@ -21,8 +21,8 @@ JobERTMailCarrier = ОБР почтальон
 JobMercenary = Наёмник
 JobPilot = Пилот
 JobPirate = Пират
-JobPirateCaptain = Пиратский Лорд
-JobPirateFirstMate = Пиратский Помощник
+JobPirateCaptain = Пиратский лорд
+JobPirateFirstMate = Первый помощник
 JobSecurityGuard = Охранник Аванпоста
 JobSTC = Диспетчер Аванпоста
 # Upstream Removed
