@@ -4,6 +4,7 @@
   description: Один из агентов Синдиката, внедряемых в ряды NanoTrasen для саботажа или с какой-либо целью. Расходный материал.
   playTimeTracker: JobSyndicateFieldOperative
   whitelisted: true
+  AgeRequirement: 20
   startingGear: SyndicateFieldOperativeGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

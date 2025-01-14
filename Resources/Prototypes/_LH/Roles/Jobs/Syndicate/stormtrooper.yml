@@ -4,6 +4,7 @@
   description: Ударная единица Синдиката, что несёт смерть и убийства корпоративным крысам. Рок-н-Ролл!
   playTimeTracker: JobSyndicateStormtrooper
   whitelisted: true
+  AgeRequirement: 26
   startingGear: SyndicateStormtrooperGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true

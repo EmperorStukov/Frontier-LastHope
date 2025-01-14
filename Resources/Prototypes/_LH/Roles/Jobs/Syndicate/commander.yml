@@ -4,6 +4,7 @@
   description: Вы - командующий специальным дивирсионным подразделением Синдиката. Портите жизнь NanoTrasen всеми возможными способами, но скрытно!
   playTimeTracker: JobSyndicateCommander
   whitelisted: true
+  AgeRequirement: 35
   startingGear: SyndicateCommanderGear
   alwaysUseSpawner: true
   hideConsoleVisibility: true
