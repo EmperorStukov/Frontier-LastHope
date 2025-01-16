@@ -3,9 +3,6 @@
   name: Полевой командир Синдиката
   description: Вы - один из полевых офицеров, координирующих действия оперативников. Держите связь с ними и всегда будьте дать указания. Слушайте всё, о чём говорит командор.
   playTimeTracker: JobSyndicateFieldCommander
-  requirements:
-    - !type:AgeRequirement
-      requiredAge: 22
   whitelisted: true
   startingGear: SyndicateFieldCommanderGear
   alwaysUseSpawner: true

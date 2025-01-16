@@ -6,8 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 108000
-    - !type:AgeRequirement
-      requiredAge: 22
   startingGear: MercenaryGear
   canBeAntag: true
   icon: "JobIconMercenary"
