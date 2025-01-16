@@ -3,9 +3,6 @@
   name: Штурмовик ударной группы Синдиката
   description: Ударная единица Синдиката, что несёт смерть и убийства корпоративным крысам. Рок-н-Ролл!
   playTimeTracker: JobSyndicateStormtrooper
-  requirements:
-    - !type:AgeRequirement
-      requiredAge: 25
   whitelisted: true
   startingGear: SyndicateStormtrooperGear
   alwaysUseSpawner: true

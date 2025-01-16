@@ -10,8 +10,6 @@
       department: Security
       time: 64800 # 18 hours
       inverted: true # Leave slots open for newer, less confident players.
-    - !type:AgeRequirement
-      requiredAge: 20
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet

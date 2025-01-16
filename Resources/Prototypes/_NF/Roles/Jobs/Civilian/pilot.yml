@@ -6,8 +6,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200
-    - !type:AgeRequirement
-      requiredAge: 20
   startingGear: PilotGear
   icon: "JobIconPilot" 
   supervisors: job-supervisors-hire

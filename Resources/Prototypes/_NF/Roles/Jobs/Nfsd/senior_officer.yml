@@ -12,8 +12,6 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 64800 # 12 hours
-    - !type:AgeRequirement
-      requiredAge: 26
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -21,8 +19,6 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 21600 # 6 hours
-    - !type:AgeRequirement
-      requiredAge: 26
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-bailiff

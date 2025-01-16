@@ -13,7 +13,7 @@
       role: JobSeniorOfficer
       time: 21600 # 6 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   alternateRequirementSets:
     longerPlaytimeLessSec:
     - !type:OverallPlaytimeRequirement
@@ -25,7 +25,7 @@
       role: JobSeniorOfficer
       time: 21600 # 6 hours
     - !type:AgeRequirement
-      requiredAge: 28
+      requiredAge: 24
   startingGear: BailiffGear
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff
