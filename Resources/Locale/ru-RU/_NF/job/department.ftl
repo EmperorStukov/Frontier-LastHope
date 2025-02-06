@@ -1,2 +1,2 @@
-department-Frontier = Фронтир
+department-Frontier = Администрация Фронтира
 department-Antag = Криминал

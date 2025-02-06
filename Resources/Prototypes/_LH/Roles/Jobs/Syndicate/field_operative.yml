@@ -1,6 +1,6 @@
 - type: job
   id: SyndicateFieldOperative
-  name: Полевой оперативник Синдиката
+  name: Полевой оперативник
   description: Один из агентов Синдиката, внедряемых в ряды NanoTrasen для саботажа или с какой-либо целью. Расходный материал.
   playTimeTracker: JobSyndicateFieldOperative
   whitelisted: true

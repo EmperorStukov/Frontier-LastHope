@@ -1,6 +1,6 @@
 - type: job
   id: SyndicateStormtrooper
-  name: Штурмовик ударной группы Синдиката
+  name: Штурмовик ударной группы
   description: Ударная единица Синдиката, что несёт смерть и убийства корпоративным крысам. Рок-н-Ролл!
   playTimeTracker: JobSyndicateStormtrooper
   whitelisted: true

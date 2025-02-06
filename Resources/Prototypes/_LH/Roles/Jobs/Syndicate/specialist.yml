@@ -1,6 +1,6 @@
 - type: job
   id: SyndicateSpecialist
-  name: Специалист ударной группы Синдиката
+  name: Специалист ударной группы
   description: Вы являетесь спецом в инженерном деле и медицине. Следите, чтобы штурмовой отряд всегда был здоров и укомплектован!
   playTimeTracker: JobSyndicateSpecialist
   whitelisted: true

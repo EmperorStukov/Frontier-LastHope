@@ -31,7 +31,7 @@
   suffix: DO NOT MAP
   components:
   - type: Stamp
-    stampedName: stamp-component-stamped-name-hos
+    stampedName: stamp-component-stamped-name-sheriff
     stampedColor: "#4c653a"
     stampState: "paper_stamp-nf-sheriff"
   - type: Sprite

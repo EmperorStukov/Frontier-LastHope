@@ -1,6 +1,6 @@
 - type: job
   id: SyndicateFieldCommander
-  name: Полевой командир Синдиката
+  name: Полевой командир
   description: Вы - один из полевых офицеров, координирующих действия оперативников. Держите связь с ними и всегда будьте дать указания. Слушайте всё, о чём говорит командор.
   playTimeTracker: JobSyndicateFieldCommander
   whitelisted: true
